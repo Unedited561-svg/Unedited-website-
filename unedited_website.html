@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNEDITED — World News & Humanity</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#f5f5f5}
+header{background:#050505;border-bottom:1px solid #292929;position:sticky;top:0;z-index:10}
+.nav{max-width:1100px;margin:auto;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:30px;font-weight:900;letter-spacing:4px}
+.logo span{color:#d9d9d9}
+nav a{color:#ddd;text-decoration:none;margin-left:18px;font-size:14px}
+nav a:hover{color:white}
+.hero{max-width:1100px;margin:28px auto;padding:0 20px}
+.hero-box{background:linear-gradient(135deg,#202020,#0d0d0d);border:1px solid #303030;border-radius:18px;padding:55px 35px}
+.tag{font-size:12px;letter-spacing:2px;color:#aaa;margin-bottom:12px}
+h1{font-size:clamp(42px,8vw,78px);line-height:.95;margin-bottom:18px}
+.hero p{max-width:650px;color:#bbb;font-size:17px;line-height:1.6}
+.btn{display:inline-block;margin-top:25px;padding:12px 18px;border:1px solid #555;border-radius:8px;color:white;text-decoration:none}
+.container{max-width:1100px;margin:35px auto;padding:0 20px}
+.section-title{font-size:25px;margin-bottom:18px;border-left:4px solid #fff;padding-left:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#141414;border:1px solid #292929;border-radius:14px;overflow:hidden}
+.photo{height:170px;background:linear-gradient(135deg,#3b3b3b,#111)}
+.card-content{padding:18px}
+.category{font-size:11px;color:#aaa;letter-spacing:1.5px;text-transform:uppercase}
+.card h3{font-size:20px;line-height:1.25;margin:9px 0;color:#fff}
+.card p{color:#999;line-height:1.5;font-size:14px}
+footer{margin-top:50px;border-top:1px solid #292929;padding:30px 20px;text-align:center;color:#777}
+@media(max-width:750px){.grid{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}nav a{margin:0 12px 0 0}.hero-box{padding:40px 24px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">UNEDITED<span>.</span></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#world">World</a>
+      <a href="#humanity">Humanity</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-box">
+    <div class="tag">NEWS • HUMANITY • TRUTH</div>
+    <h1>THE WORLD,<br>UNEDITED.</h1>
+    <p>Stories from around the world, humanity in focus, and important events presented clearly and responsibly.</p>
+    <a class="btn" href="#world">Explore Stories →</a>
+  </div>
+</section>
+
+<section class="container" id="world">
+  <h2 class="section-title">Latest Stories</h2>
+  <div class="grid">
+    <article class="card">
+      <div class="photo"></div>
+      <div class="card-content">
+        <div class="category">World</div>
+        <h3>Your first headline goes here</h3>
+        <p>Add a short summary of the story here.</p>
+      </div>
+    </article>
+    <article class="card" id="humanity">
+      <div class="photo"></div>
+      <div class="card-content">
+        <div class="category">Humanity</div>
+        <h3>Stories that remind us to care</h3>
+        <p>Share meaningful stories that highlight people and humanity.</p>
+      </div>
+    </article>
+    <article class="card">
+      <div class="photo"></div>
+      <div class="card-content">
+        <div class="category">Breaking</div>
+        <h3>Important news and updates</h3>
+        <p>Replace this text with your latest verified update.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<footer id="contact">
+  <strong>UNEDITED.</strong><br><br>
+  World News • Humanity • Stories<br><br>
+  © 2026 UNEDITED. All rights reserved.
+</footer>
+</body>
+</html>
